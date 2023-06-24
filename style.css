@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+:root {
+    --font: 'Roboto', sans-serif;
+    --bg-color: #27374D;
+    --primary--color: #DDE6ED;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: var(--font);
+    color: var(--primary--color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+h2 {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 3em;
+    margin-top: 2em;
+    font-weight: 300;
+}
+
+.title {
+    font-size: 5em;
+    font-weight: 400;
+}
+
+.title__sub {
+    font-size: 2em;
+    font-weight: 100;
+    margin-top: 2em;
+}
+
+.chute__tentativa {
+    font-size: 2em;
+    font-weight: 100;
+    margin-top: 1em;
+}
+
+.box {
+    border: 2px solid var(--primary--color);
+    display: inline-block;
+    font-size: 7em;
+    padding: 10px;
+    margin-top: .3em;
+}
+
+.chute__dica {
+    font-size: 2em;
+    font-weight: 100;
+    margin-top: 1em;
+}
+
+.chute {
+    font-size: 2em;
+    font-weight: 100;
+    margin-top: 1em;
+}
+
+.btn-jogar {
+    padding: 1em;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 3em;
+    background-color: var(--primary--color);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+}
